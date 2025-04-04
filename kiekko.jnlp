@@ -1,0 +1,39 @@
+
+
+
+<jnlp codebase="http://kiekko.tv/">
+<information>
+  <title>Kiekko.tk</title>
+  <vendor>Kiekko.tk</vendor>
+  <homepage href="https://kiekko.tv" />
+  <shortcut>
+    <desktop />
+    <menu />
+  </shortcut>
+</information>
+<update check="always" />
+<security><all-permissions /></security>
+
+<resources>
+<j2se version="1.6+" java-vm-args="-Xms512m -Xmx2g -XX:+UseConcMarkSweepGC" max-heap-size="2g" />
+<jar href="kiekko-0.8.29.jar" main="1" />
+</resources>
+
+<applet-desc main-class="kiekko.kiekko" documentbase="http://kiekko.tv" name="Kiekko.tk"
+ width="200" height="100">
+<param name="java_arguments" value="-Xms512m -Xmx2g -XX:+UseConcMarkSweepGC" />
+<param name="host" value="95.217.131.228" />
+<param name="port" value="9010" />
+<param name="pixdir" value="/pix" />
+<param name="sfxdir" value="/sfx" />
+<param name="num_suits" value="13" />
+<param name="language" value="fi" />
+<param name="bg" value="kaukalo.png" />
+<param name="report" value="http://kiekko.tv/report3.cws" />
+
+
+
+</applet-desc>
+
+</jnlp>
+
