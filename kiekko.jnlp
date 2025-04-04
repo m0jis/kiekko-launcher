@@ -18,8 +18,16 @@
   <update check="always"/>
 
   <resources>
-    <j2se version="11+" java-vm-args="-Xms512m -Xmx2g -XX:+UseConcMarkSweepGC"/>
-    <jar href="kiekko-0.8.29.jar" main="true"/>
+	  <j2se version="11+" java-vm-args="-Xms512m -Xmx2g -XX:+UseConcMarkSweepGC"/>
+	  <jar href="kiekko-0.8.29.jar" main="true"/>
+	  <jar href="lib/javafx.base.jar"/>
+	  <jar href="lib/javafx.controls.jar"/>
+	  <jar href="lib/javafx.fxml.jar"/>
+	  <jar href="lib/javafx.graphics.jar"/>
+	  <jar href="lib/javafx.media.jar"/>
+	  <jar href="lib/javafx.swing.jar"/>
+	  <jar href="lib/javafx.web.jar"/>
+	  <jar href="lib/javafx-swt.jar"/>
   </resources>
 
   <applet-desc 
