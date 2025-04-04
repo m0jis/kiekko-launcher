@@ -18,7 +18,7 @@
   <update check="always"/>
 
   <resources>
-	  <j2se version="11+" java-vm-args="-Xms512m -Xmx2g -XX:+UseConcMarkSweepGC"/>
+	  <j2se version="21.0.6" href="file:/C:/Program Files/Eclipse Adoptium/jdk-21.0.6.7-hotspot/" java-vm-args="-Xms512m -Xmx2g -XX:+UseConcMarkSweepGC"/>
 	  <jar href="kiekko-0.8.29.jar" main="true"/>
 	  <jar href="lib/javafx.base.jar"/>
 	  <jar href="lib/javafx.controls.jar"/>
